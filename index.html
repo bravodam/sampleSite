@@ -163,7 +163,7 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" data-netlify="true"  action="#">
+							<form method="post" data-netlify="true"  action="post">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
@@ -175,7 +175,16 @@
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
+										<textarea name="message" id="message" rows="7"></textarea>
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<input type="file" name="myfile" id="myfile" rows="7"/>
+									</div>
+									<div class="field">
+										<div data-netlify-recaptcha="true">
+											
+										</div>
 									</div>
 								</div>
 								<ul class="actions">
